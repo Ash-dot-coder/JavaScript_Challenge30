@@ -1,0 +1,105 @@
+html {
+    font-size: 10px;
+    background: #1d1d1d;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,
+html {
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.head-title {
+    text-align: center;
+    width: 100%;
+    color: tan;
+    position: absolute;
+    top: 18.71rem;
+    letter-spacing: 0.63vw;
+    text-transform: uppercase;
+}
+
+.head-title .head {
+    font-size: 2vw;
+}
+
+.head-title .title {
+    font-size: 1.18vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.drum-head {
+    width: 100%;
+    color: tan;
+    position: absolute;
+    top: 24.45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.drum-head h5 {
+    letter-spacing: 0.17vw;
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    padding-right: 0.27vw;
+    padding-left: 2.27vw;
+    font-size: 0.899vw;
+    border-radius: 0.48vw 0 0 0;
+    background: rgba(210, 180, 140, 0.253);
+}
+
+
+
+.keys {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid rgba(117, 117, 117, 0.671);
+    border-radius: 2.5rem;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 0.78rem .5rem;
+    transition: all .47s ease-out;
+    width: 10rem;
+    text-align: center;
+    color: gray;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.5rem rgba(108, 108, 108, 0.655);
+}
+
+.playing {
+    transform: translateY(-1.86rem);
+    border-color: #e5c05aa5;
+    /* box-shadow: 0 0 1rem #0034c4b4; */
+    box-shadow: inset 18em 0 0 0 rgba(187, 144, 87, 0.215);
+    color: #1d1d1d;
+    transition: 0.32s ease-in;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    /* color: #ffc600; */
+    color: rgba(212, 124, 10, 0.858);
+}
