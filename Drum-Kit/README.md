@@ -44,10 +44,15 @@ To run this project locally, follow these steps:
 
 ## 📂 Project Structure
 /drum-kit
+
 │
+
 ├── index.html       # Main HTML file
+
 ├── styles.css       # Styles for the drum kit layout
+
 ├── script.js        # JavaScript functionality and sound handling
+
 └── sounds/          # Folder containing the drum sound files
 
 ## 🙏 Acknowledgments
