@@ -34,11 +34,11 @@ Experience the beauty of timekeeping with this interactive project!
 The project repository contains two folders:
 JavaScript_Challenge30/
 
-│ 
+```plaintext
 ├── /Day 2 - [Clock]
-├── index.html
-├── styles.css
-├── script.js
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
 
 
 ### 📂 How to Run Locally
