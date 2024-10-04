@@ -1,4 +1,8 @@
-# Drum Kit Project 🎵
+# JavaScript Challenge 30 🚀
+
+Welcome to my **JavaScript Challenge 30**, where I am enhancing my JavaScript skills through various projects over 30 days. Each day focuses on a different project, showcasing different functionalities and learning outcomes.
+
+## Day 1: Drum Kit Project 🎵
 
 Welcome to the **Drum Kit** project, a fun and interactive experience where each letter on your keyboard corresponds to a different drum sound. Press any of the displayed letters to hear the associated sound, creating your own beats!
 
