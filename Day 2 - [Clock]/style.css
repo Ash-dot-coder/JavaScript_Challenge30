@@ -14,9 +14,10 @@ body {
 }
 
 .title {
-    position: absolute;
+    /* position: absolute;
     right: 47rem;
-    top: 26rem;
+    top: 26rem; */
+    margin-left: 8.33rem;
     color: #BB4800;
     width: fit-content;
     font-size: 1.64vw;
@@ -65,7 +66,7 @@ body {
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
-.min-stick {
+.second-stick {
     background: #b0454579;
 }
 
@@ -79,15 +80,17 @@ body {
     color: #d5dc87e2;
     /* color: #e6d842e2; */
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 #digital-time {
     font-size: 4rem;
     letter-spacing: 0.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #digital-date {
     font-size: 1.5rem;
     margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
