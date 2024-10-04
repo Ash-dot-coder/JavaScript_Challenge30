@@ -28,7 +28,7 @@ Here's a snapshot of the Drum Kit interface:
 
 ## 🎬 Demo
 
-Check out the live demo of the Drum Kit project [Click me](https://ash-dot-coder.github.io/JavaScript_Challenge30/Drum-Kit/index.html).  
+Check out the live demo of the Drum Kit project [Click me]( https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%201%20-%20%5BDrum-Kit%5D/index.html ).  
 Feel free to experience the project and make your own beats!
 
 
