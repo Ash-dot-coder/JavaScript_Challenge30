@@ -32,7 +32,8 @@ This project showcases the capabilities of JavaScript and CSS to create engaging
    ```
 
 2. Navigate to the project directory:
-    ```cd JavaScript_Challenge30/Day 3 - [Visual-Tuner]
+    ```bash
+    cd JavaScript_Challenge30/Day 3 - [Visual-Tuner]
     ```
 3. Open the index.html file in your preferred web browser.
 
