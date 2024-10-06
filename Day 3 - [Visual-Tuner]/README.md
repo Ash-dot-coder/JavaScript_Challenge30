@@ -36,27 +36,27 @@ This project showcases the capabilities of JavaScript and CSS to create engaging
     ```
 3. Open the index.html file in your preferred web browser.
 
-##🔧 Technologies Used
+## 🔧 Technologies Used
 - HTML: Structure of the application
 - CSS: Styling and layout
 - JavaScript: Functionality and interactivity
 
-##📦 Features
+## 📦 Features
 - Real-time Updates: All visual changes are applied instantly as users interact with the controls.
 - User-Friendly Interface: The design is intuitive, making it easy for anyone to use.
 - Cross-Browser Compatibility: Works seamlessly on modern web browsers.
 
-##🛠️ Installation
+## 🛠️ Installation
 To run the project locally:
 
 - Ensure you have a modern web browser installed (Chrome, Firefox, Safari, etc.).
 - Follow the Getting Started section to clone and navigate to the project directory.
 - Open the index.html file to view the project in action.
 
-##🌟 Acknowledgements
+## 🌟 Acknowledgements
 A special thanks to Wes Bos for providing invaluable resources and insights throughout this challenge. His teaching has been instrumental in my learning journey.
 
-##💬 Contact
+## 💬 Contact
 Feel free to reach out for feedback, suggestions, or questions!
 
 GitHub: [ https://github.com/Ash-dot-coder ]
