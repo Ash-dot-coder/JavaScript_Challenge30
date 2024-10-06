@@ -11,21 +11,21 @@ Welcome to my **JavaScript Challenge 30**, where I am enhancing my JavaScript sk
 ## Project Features
 
 - **Filter Inventors Born in the 1900s**: Identify inventors born between 1900 and 1960.
-- ![First:](<Assets/images/1 - filter.png>)
+ ![First:](<Assets/images/1 - filter.png>)
 - **Map Full Names**: Create a list of full names for all inventors.
-- ![Second:](<Assets/images/2 - map.png>)
+ ![Second:](<Assets/images/2 - map.png>)
 - **Sort by Birthdate**: Organize inventors from oldest to youngest based on their birth year.
-- ![Third:](<Assets/images/3 - sort.png>)
+ ![Third:](<Assets/images/3 - sort.png>)
 - **Calculate Total Years Lived**: Sum the total years lived by all inventors.
-- ![Fourth:](<Assets/images/4 - reduce.png>)
+ ![Fourth:](<Assets/images/4 - reduce.png>)
 - **Sort by Years Lived**: Rank inventors by the number of years they lived, showcasing their legacies.
-- ![Fifth:](<Assets/images/5 - sort.png>)
+ ![Fifth:](<Assets/images/5 - sort.png>)
 - **Filter Programming Languages**: Extract programming languages containing "Java" from a list.
-- ![Sixth:](<Assets/images/6 - filter.png>)
+ ![Sixth:](<Assets/images/6 - filter.png>)
 - **Sort People Alphabetically**: Arrange a list of notable figures by their last names.
-- ![Seventh:](<Assets/images/7 - sort.png>)
+ ![Seventh:](<Assets/images/7 - sort.png>)
 - **Count Instances of Tech Usage**: Count how many times each tech item is mentioned in a dataset.
-- ![Eighth:](<Assets/images/8 - reduce.png>)
+ ![Eighth:](<Assets/images/8 - reduce.png>)
 
 ## Learning Outcomes
 
