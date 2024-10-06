@@ -28,10 +28,12 @@ This project showcases the capabilities of JavaScript and CSS to create engaging
 ### How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ash-dot-coder/JavaScript_Challenge30.git   ```
+   git clone https://github.com/Ash-dot-coder/JavaScript_Challenge30.git   
+   ```
 
 2. Navigate to the project directory:
-```cd JavaScript_Challenge30/Day 3 - [Visual-Tuner]
+```
+cd JavaScript_Challenge30/Day 3 - [Visual-Tuner]
 ```
 3. Open the index.html file in your preferred web browser.
 
