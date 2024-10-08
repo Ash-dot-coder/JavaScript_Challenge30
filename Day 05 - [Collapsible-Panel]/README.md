@@ -39,16 +39,16 @@ To view and interact with the project locally:
 
 
 # 📂 Repository
-Find the code and project details on my GitHub repository: https://github.com/Ash-dot-coder/JavaScript_Challenge30/tree/Js30/Day%2005%20-%20%5BCollapsible-Panel%5D
+- Find the code and project details on my GitHub repository: https://github.com/Ash-dot-coder/JavaScript_Challenge30/tree/Js30/Day%2005%20-%20%5BCollapsible-Panel%5D
 
 # 💻 Have a live-look
 *Hosted link:* https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2005%20-%20%5BCollapsible-Panel%5D/index.html
 
 # 🙏 Acknowledgements
-Special thanks to Wes Bos for the inspiration and guidance through his tutorials, which have significantly improved my development skills.
+- Special thanks to Wes Bos for the inspiration and guidance through his tutorials, which have significantly improved my development skills.
 
 # 📝 About Me
-I am Ayush Kohre, a passionate front-end developer working on mastering full-stack development. Follow my journey on GitHub: https://github.com/Ash-dot-coder
+- I am Ayush Kohre, a passionate front-end developer working on mastering full-stack development. Follow my journey on GitHub: https://github.com/Ash-dot-coder
 
 # 🌐 Connect With Me
 - LinkedIn: Ayush Kohre (https://www.linkedin.com/in/aayush-kohre-dev1/)
