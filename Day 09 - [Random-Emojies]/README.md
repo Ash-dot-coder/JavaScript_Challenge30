@@ -65,4 +65,4 @@ To run this project locally:
 - CSS transitions and animations to create smooth, responsive effects.
 
 ## 📝 Contact 
-Linkedin ID: [!Ayush Kohre](https://www.linkedin.com/in/aayush-kohre-dev1/)
+Linkedin ID: [Ayush Kohre](https://www.linkedin.com/in/aayush-kohre-dev1/)
