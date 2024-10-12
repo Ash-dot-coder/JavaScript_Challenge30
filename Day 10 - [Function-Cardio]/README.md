@@ -7,7 +7,7 @@ Welcome to **Day 10** of my **30 Days JavaScript Challenge**, where I explore th
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Concepts Covered](#concepts-covered)
-  - [](#)
+  - [Look: 👁️](#look-️)
   - [How to Run](#how-to-run)
 - [Learnings \& Takeaways](#learnings--takeaways)
 - [Repository](#repository)
@@ -29,22 +29,24 @@ This project is part of my continuous learning journey to enhance my skills as a
 ## Concepts Covered
 
 1. **Higher-Order Function (HOF)**: Functions that take other functions as arguments or return them as results.
-  ![I/O](images/1-HOF.png)
 2. **Immediately Invoked Function Expression (IIFE)**: Functions that run immediately upon definition, used for isolated scopes.
-  ![I/O](images/2-IIFE.png)
 3. **Callback Function**: Functions passed as arguments to be executed later, especially in asynchronous operations.
-  ![I/O](images/3-Callbachfunc.png)
-  -
-  ![I/O](images/3.1-callBackFunc.png)
 4. **Arrow Function**: A concise syntax for defining functions, often used for inline logic.
-  ![I/O](images/4-ArrowFunc.png)
 5. **Closure**: Functions that retain access to their lexical scope even when executed outside their original context.
-  ![I/O](images/5-Closure.png)
 6. **Function Returning a Function**: Functions that return other functions to create dynamic behavior.
-  ![I/O](images/6-funcReturnFunc.png)
 7. **Function Composition**: Combining multiple functions for more complex operations.
-  ![I/O](images/7-FunCompose.png)
 8. **Recursive Function**: Functions that call themselves for repetitive tasks broken into smaller steps.
+  
+## Look: 👁️
+
+  ![I/O](images/1-HOF.png)
+  ![I/O](images/2-IIFE.png)
+  ![I/O](images/3-Callbachfunc.png)
+  ![I/O](images/3.1-callBackFunc.png)
+  ![I/O](images/4-ArrowFunc.png)
+  ![I/O](images/5-Closure.png)
+  ![I/O](images/6-funcReturnFunc.png)
+  ![I/O](images/7-FunCompose.png)
   ![I/O](images/8-recursiveFunc.png)
 
 
