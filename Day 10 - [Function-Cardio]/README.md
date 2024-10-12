@@ -39,14 +39,23 @@ This project is part of my continuous learning journey to enhance my skills as a
   
 ## Look: 👁️
 
+  - 1:
   ![I/O](images/1-HOF.png)
+  - 2:
   ![I/O](images/2-IIFE.png)
+  - 3:
   ![I/O](images/3-Callbachfunc.png)
+  - 3.1:
   ![I/O](images/3.1-callBackFunc.png)
+  - 4:
   ![I/O](images/4-ArrowFunc.png)
+  - 5:
   ![I/O](images/5-Closure.png)
+  - 6:
   ![I/O](images/6-funcReturnFunc.png)
+  - 7:
   ![I/O](images/7-FunCompose.png)
+  - 8:
   ![I/O](images/8-recursiveFunc.png)
 
 
