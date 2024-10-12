@@ -93,4 +93,4 @@ function fact(n) {
     }
 }
 
-console.log('Factorial of 6 -> ' + fact(6));
+console.log(`Factorial of 6 -> ${fact(6)}`);
