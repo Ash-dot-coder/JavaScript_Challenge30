@@ -1,7 +1,7 @@
 // Function - Cardio
 // Steps:
 
-// 1. Higher-Order Function (HOF)
+// 1 - Higher-Order Function (HOF)
 // function calculation(operation, a, b) {
 //     return operation(a, b);
 // }
@@ -12,7 +12,7 @@
 // console.log(calculation(add, 6, 4));
 // console.log(calculation(substract, 8, 3));
 
-// 2. Immediately Invoked function Expression (IIFE)
+// 2 - Immediately Invoked function Expression (IIFE)
 // (function () {
 //     console.log("This function runs immediately!");
 // }());
@@ -22,7 +22,7 @@
 // })('Ash');
 
 
-// 3. Callback Function
+// 3 - Callback Function
 // function fetchData(callback) {
 //     console.log("Fetching data...");
 //     setTimeout(() => {
@@ -36,7 +36,7 @@
 // }
 // fetchData(displayD);
 
-// 4. Arrow Function
+// 4 - Arrow Function
 // const mult = (a, b) => a * b;
 // console.log(mult(3, 8));
 
@@ -44,7 +44,7 @@
 // const squares = numbers.map((num) => num * num);
 // console.table(squares);
 
-// 5. Closure
+// 5 - Closure
 // function counter() {
 //     let num = 3;
 //     return function () {
@@ -57,7 +57,7 @@
 // preinc();
 // preinc();
 
-// 6. Function Returning a Function
+// 6 - Function Returning a Function
 // function greeting(memo) {
 //     return function(name) {
 //         console.log(`${memo}, ${name}!`);
@@ -67,7 +67,7 @@
 // sayHi('Ash');
 
 
-// 7. Function Composition
+// 7 - Function Composition
 // function double(num) {
 //     console.log(`double: ${num}`);
 //     return num * 2;
@@ -84,7 +84,7 @@
 // const doubleThenSquare = compose(square, double);
 // console.log(doubleThenSquare(7));
 
-// 8. Recursive Function
+// 8 - Recursive Function
 function fact(n) {
     if (n === 0) {
         return 1;

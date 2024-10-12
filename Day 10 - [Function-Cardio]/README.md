@@ -6,7 +6,6 @@ Welcome to **Day 10** of my **30 Days JavaScript Challenge**, where I explore th
 - [JavaScript Challenge 30 - Day 10: Function Cardio 🧠](#javascript-challenge-30---day-10-function-cardio-)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-  - [](#)
   - [Concepts Covered](#concepts-covered)
   - [How to Run](#how-to-run)
 - [Learnings \& Takeaways](#learnings--takeaways)
@@ -17,22 +16,31 @@ Welcome to **Day 10** of my **30 Days JavaScript Challenge**, where I explore th
 The **Function Cardio** project is a practical exercise aimed at understanding different function concepts in JavaScript. It includes:
 - Higher-Order Functions (HOF)
   ![I/O](images/1-HOF.png)
+  
 - Immediately Invoked Function Expressions (IIFE)
   ![I/O](images/2-IIFE.png)
+  
 - Callback Functions
   ![I/O](images/3-Callbachfunc.png)
+  
   -
   ![I/O](images/3.1-callBackFunc.png)
+  
 - Arrow Functions
   ![I/O](images/4-ArrowFunc.png)
+  
 - Closures
   ![I/O](images/5-Closure.png)
+  
 - Functions Returning Functions
   ![I/O](images/6-funcReturnFunc.png)
+  
 - Function Composition
   ![I/O](images/7-FunCompose.png)
+  
 - Recursive Functions
   ![I/O](images/8-recursiveFunc.png)
+  
 
 This project is part of my continuous learning journey to enhance my skills as a developer by exploring the capabilities of JavaScript.
 
