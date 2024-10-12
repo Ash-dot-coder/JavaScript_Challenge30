@@ -6,6 +6,7 @@ Welcome to **Day 10** of my **30 Days JavaScript Challenge**, where I explore th
 - [JavaScript Challenge 30 - Day 10: Function Cardio 🧠](#javascript-challenge-30---day-10-function-cardio-)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
+  - [](#)
   - [Concepts Covered](#concepts-covered)
   - [How to Run](#how-to-run)
 - [Learnings \& Takeaways](#learnings--takeaways)
@@ -20,6 +21,7 @@ The **Function Cardio** project is a practical exercise aimed at understanding d
   ![I/O](images/2-IIFE.png)
 - Callback Functions
   ![I/O](images/3-Callbachfunc.png)
+  -
   ![I/O](images/3.1-callBackFunc.png)
 - Arrow Functions
   ![I/O](images/4-ArrowFunc.png)
