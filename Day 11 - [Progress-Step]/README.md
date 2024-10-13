@@ -33,9 +33,9 @@ This project demonstrates how to build a progress bar that dynamically updates a
 When you open the project, you’ll see the progress bar with numbered steps. You can navigate through the steps using the Next and Prev buttons. The bar fills up as you advance and reduces when you go back.
 
 # 📸 Look
-[!prev](interface/one.png)
-[!mid](interface/two.png)
-[!next](interface/three.png)
+![prev](interface/one.png)
+![mid](interface/two.png)
+![next](interface/three.png)
 
 # 🖥️ Live-Hosting
 [Live-View](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2011%20-%20%5BProgress-Step%5D/index.html)
