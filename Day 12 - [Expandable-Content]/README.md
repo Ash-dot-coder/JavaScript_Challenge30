@@ -6,7 +6,7 @@ This project is part of my **30-Day JavaScript Challenge**. The goal was to crea
 
 ### 🔗 [Live Demo](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2012%20-%20%5BExpandable-Content%5D/index.html)
 
-# Before Expand:
+# Before xpand:
 ![Expandable Content Preview-1](/Day%2012%20-%20[Expandable-Content]/Image/interface1.png)
 
 # After Expand:
@@ -44,5 +44,5 @@ This project is part of my **30-Day JavaScript Challenge**. The goal was to crea
 ## 🤝 Connect with Me
 Feel free to reach out for any suggestions or collaboration opportunities!
 
-- Github: ![Ash-dot-coder](https://github.com/Ash-dot-coder)
-- LinkedIn: ![Ayush Kohre](https://www.linkedin.com/in/aayush-kohre-dev1/)
+- Github: [Ash-dot-coder](https://github.com/Ash-dot-coder)
+- LinkedIn: [Ayush Kohre](https://www.linkedin.com/in/aayush-kohre-dev1/)
