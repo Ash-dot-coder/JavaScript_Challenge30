@@ -1,4 +1,4 @@
-# 🔽 Expandable Content 🔼 - Day 12 of 30-Day JavaScript Challenge
+# Day 12 - 30-Day JavaScript Challenge: 🔽 Expandable Content 🔼
 
 ![Expandable Content Preview-1](/Day%2012%20-%20[Expandable-Content]/Image/interface1.png)
 
