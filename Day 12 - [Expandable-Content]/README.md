@@ -6,7 +6,7 @@ This project is part of my **30-Day JavaScript Challenge**. The goal was to crea
 
 ### 🔗 [Live Demo](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2012%20-%20%5BExpandable-Content%5D/index.html)
 
-# Before xpand:
+# Before Expand:
 ![Expandable Content Preview-1](/Day%2012%20-%20[Expandable-Content]/Image/interface1.png)
 
 # After Expand:
