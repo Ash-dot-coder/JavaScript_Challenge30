@@ -1,13 +1,16 @@
 # Day 12 - 30-Day JavaScript Challenge: 🔽 Expandable Content 🔼
 
-![Expandable Content Preview-1](/Day%2012%20-%20[Expandable-Content]/Image/interface1.png)
 
 ## 🚀 Project Overview
 This project is part of my **30-Day JavaScript Challenge**. The goal was to create an interactive webpage where a button click toggles additional content and an image, showcasing how JavaScript can manage user interactions and dynamically alter webpage elements.
 
-![Expandable Content Preview-1](/Day%2012%20-%20[Expandable-Content]/Image/interface2.png)
-
 ### 🔗 [Live Demo](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2012%20-%20%5BExpandable-Content%5D/index.html)
+
+# Before Expand:
+![Expandable Content Preview-1](/Day%2012%20-%20[Expandable-Content]/Image/interface1.png)
+
+# After Expand:
+![Expandable Content Preview-1](/Day%2012%20-%20[Expandable-Content]/Image/interface2.png)
 
 ## 📂 Project Details
 
@@ -30,15 +33,15 @@ This project is part of my **30-Day JavaScript Challenge**. The goal was to crea
     
 3. Open the index.html file in your preferred browser to view the project.
 
-# 🖼️ Project Features
+## 🖼️ Project Features
 - A button that toggles the visibility of additional content and an image.
 - A simple yet effective demonstration of JavaScript's ability to manage DOM elements based on user interactions.
     
-# 🎯 Key Learning Outcomes
+## 🎯 Key Learning Outcomes
 - Improved understanding of DOM manipulation and event handling in JavaScript.
 - Enhanced skills in creating interactive web elements that respond to user actions.
 
-# 🤝 Connect with Me
+## 🤝 Connect with Me
 Feel free to reach out for any suggestions or collaboration opportunities!
 
 - Github: ![Ash-dot-coder](https://github.com/Ash-dot-coder)
