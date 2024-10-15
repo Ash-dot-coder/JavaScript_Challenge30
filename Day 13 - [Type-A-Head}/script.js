@@ -17,12 +17,12 @@ function findMatches(wordToMatch, cities) {
 }
 
 function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3}) + (?!\d))/g, ',');
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
 function displayMatches() {
     const matchArray = findMatches(this.value, cities);
-    const html = matchArray.map(place => {
+    const html = matchArray.map((place) => {
         const regax = new RegExp(this.value, 'gi');
         const cityName = place.city.replace(regax, `<span class="h1">${this.value}</span>`);
         const stateName = place.state.replace(regax, `<span class="h1">${this.value}</span>`);
