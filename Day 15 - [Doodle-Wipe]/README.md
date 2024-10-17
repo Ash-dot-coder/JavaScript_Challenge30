@@ -6,6 +6,7 @@
 ## Look 👁️
 ![Blank](image/interface-1.png)
 ![Draw](image/interface-2.png)
+![Draw](image/interface-3.png)
 
 ## Live Demo 🚀
 You can view the live project: [View](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2015%20-%20%5BDoodle-Wipe%5D/index.html)
