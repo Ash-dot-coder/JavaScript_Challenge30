@@ -19,11 +19,11 @@ The Shift-Select Checkbox with Reset project showcases the following features:
 
 │
 
-├── index.html         # The main HTML file with the checkbox list and reset button.
+├── index.html          **The main HTML file with the checkbox list and reset button.**
 
-├── style.css          # The CSS file containing custom styles for the inbox, items, and button.
+├── style.css           **The CSS file containing custom styles for the inbox, items, and button.**
 
-└── script.js          # JavaScript logic for handling checkbox selection and reset functionality.
+└── script.js           **JavaScript logic for handling checkbox selection and reset functionality.**
 
 
 ## ✨ Features
@@ -79,8 +79,8 @@ In this project, I gained experience in:
 - Vanilla JavaScript (ES6+)
 
 ## 🔗 Repositories
- - JS30 Repository: [JavaScript_Challenge30](https://github.com/Ash-dot-coder/JavaScript_Challenge30)
- - Day 17 Project Repository: Day 17 - [Hold-Shift-Multiple-CheckBox](https://github.com/Ash-dot-coder/JavaScript_Challenge30/tree/Js30/Day%2017%20-%20%5BHold-Shift-Multiple-CheckBox%5D)
+ -J**S30 Repository: [JavaScript_Challenge30](https://github.com/Ash-dot-coder/JavaScript_Challenge30)**
+ -D**ay 17 Project Repository: Day 17 - [Hold-Shift-Multiple-CheckBox](https://github.com/Ash-dot-coder/**JavaScript_Challenge30/tree/Js30/Day%2017%20-%20%5BHold-Shift-Multiple-CheckBox%5D)
 
 
 ## 🧑‍💻 Author
