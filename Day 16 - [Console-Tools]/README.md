@@ -44,32 +44,32 @@ This project operates entirely within the browser’s console, demonstrating the
 6.1 **Assertion Testing**:  
  Shows how to test conditions and log messages if those conditions are not met. This is useful for validating code logic and ensuring data integrity.
 
- ![Information-Testing](image/6-infoTesting.png)
+![Information-Testing](image/6-infoTesting.png)
 
 7. **Clearing the Console**:  
    Explains the importance of clearing the console to maintain a clean and organized environment for debugging, especially during complex code testing.
 
- ![Clearing-Console](image/7-clearning.png)  
+![Clearing-Console](image/7-clearning.png)
 
 8. **Viewing DOM Elements**:  
    Demonstrates how to log and inspect DOM elements directly in the console, providing a deeper understanding of their properties and behavior.
 
-   ![DOM-Elements](image/8-viewDOME.png)  
+   ![DOM-Elements](image/8-viewDOME.png)
 
 9. **Grouping Console Messages**:  
    Illustrates how to organize related console messages into collapsible groups. Grouping logs makes it easier to manage and review related information during debugging.
 
-   ![Grouping-Messages](image/9-groupingTog.png)  
+   ![Grouping-Messages](image/9-groupingTog.png)
 
-10. **Timing API Fetch**:  
-    Shows how to measure the time taken for an API call. This method helps in optimizing code performance by tracking how long various processes take.
-
-    ![Timing-API-Fetch](image/10-count.png)  
-
-11. **Counting Function Calls**:  
+10. **Counting Function Calls**:  
     Demonstrates how to keep track of the number of times a function has been called. This is useful for performance monitoring and debugging, helping developers understand the flow of their application and identify any unexpected behavior.
 
-    ![Counting-Calls](image/11-timing.png)  
+    ![Counting-Calls](image/10-count.png)
+
+11. **Timing API Fetch**:  
+    Shows how to measure the time taken for an API call. This method helps in optimizing code performance by tracking how long various processes take.
+
+    ![Timing-API-Fetch](image/11-timing.png)
 
 ## Features 🛠️
 
@@ -90,39 +90,46 @@ This project operates entirely within the browser’s console, demonstrating the
 To run this project locally:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/ash-dot-coder/JavaScript_Challenge30.git
    ```
 
 2. Navigate to the project folder:
-    ```bash
-    cd JavaScript_Challenge30/Day 16 - [Console-Tools]
-    ```
+
+   ```bash
+   cd JavaScript_Challenge30/Day 16 - [Console-Tools]
+   ```
 
 3. Open index.html in your browser and open the console to explore the logging techniques.
 
-
 ## Usage Guide 🖥️
+
 - Click on the text element (xBREAKxDOWNx) to see how the console interacts with DOM elements and logs information dynamically.
 - Experiment with the console to see examples of warnings, errors, assertions, and data fetching.
 - Use console grouping to explore how information is organized and displayed efficiently.
 
 ## Learning Points 📖
+
 - Console Debugging: Learn how to use console methods for effective debugging and data inspection.
 - Performance Analysis: Utilize the console to measure API fetch times and optimize code performance.
 - DOM Manipulation: See how to interact with and log DOM elements using various console methods.
 - Data Presentation: Practice displaying structured data using tables and counters for clarity.
 
 ## Contribution 🤝
+
 This is an open-source project, and contributions are always welcome. If you find any bugs or want to suggest improvements, please feel free to fork the repository and submit a pull request.
 
 ## Acknowledgments 🙏
+
 A big thanks to [Wes Bos](https://courses.wesbos.com/account/signin) for his valuable tutorials, which have helped enhance my JavaScript and console debugging skills.
 
 ## Repository Links 🔗
+
 - Js30 Repository: [JavaScript Challenge 30](https://github.com/Ash-dot-coder/JavaScript_Challenge30)
 - Current Project Repository: Day 16 - [Console Tools](https://github.com/Ash-dot-coder/JavaScript_Challenge30/tree/Js30/Day%2016%20-%20%5BConsole-Tools%5D)
 
 ## Contact 💬
+
 - LinkedIn: [Ayush Kohre](https://www.linkedin.com/in/aayush-kohre-dev1/)
 - GitHub: [Ash-dot-coder](https://github.com/Ash-dot-coder)
