@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html {
+    font-family: "Satisfy", cursive;
+    font-weight: 658;
+    background: #1d1d1d;
+    transition: 0.87s ease-in-out;
+}
+
+.inbox {
+    max-width: 400px;
+    margin: 30px auto;
+    margin-bottom: 0;
+    /* background: #F7C5BD; */
+    background: #D2C893;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 #58541F;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5a399;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+input:checked+p {
+    /* background: #CC483C; */
+    background: #58541fbd;
+    color: #D2C893;
+    text-decoration: line-through;
+    /* color: ; */
+}
+
+input[type="checkbox"] {
+    margin: 1.32rem;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    font-size: 1.28em;
+    font-weight: 687;
+    border-left: 1px solid #e5a399;
+}
+
+#reset-button {
+    cursor: pointer;
+    margin: 0.3em 0.3em 0.3em 8.9rem;
+    background: #58541F;
+    color: #D2C893;
+    font-size: 1.3em;
+    padding: 0.23em 1em 0.3em 1em;
+    border-radius: 13px;
+    border: none;
+    transition: 0.63s ease-out;
+
+    &:hover {
+        transform: scale(1.07);
+        transition: 0.33s ease-in;
+    }
+}
