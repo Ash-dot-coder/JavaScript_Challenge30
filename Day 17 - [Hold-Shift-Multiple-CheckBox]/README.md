@@ -19,11 +19,12 @@ The Shift-Select Checkbox with Reset project showcases the following features:
 
 │
 
-├── index.html          **The main HTML file with the checkbox list and reset button.**
-
-├── style.css           **The CSS file containing custom styles for the inbox, items, and button.**
-
-└── script.js           **JavaScript logic for handling checkbox selection and reset functionality.**
+├── index.html
+**The main HTML file with the checkbox list and reset button.**
+├── style.css
+**The CSS file containing custom styles for the inbox, items, and button.**
+└── script.js
+**JavaScript logic for handling checkbox selection and reset functionality.**
 
 
 ## ✨ Features
