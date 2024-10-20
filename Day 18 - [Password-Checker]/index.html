@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day - 18 | Password Checker</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background: #1d1d1d; color: white">
+    <div class="container">
+      <h1>Password Checker &nbsp;<i class="fa-solid fa-lock"></i></h1>
+      <div class="input-container">
+        <input type="password" id="password" placeholder="Password to check..." />
+        <button type="button" id="togglePassword">
+          <i class="bi bi-eye-slash"></i>
+        </button>
+      </div>
+      <div class="check-results">
+        <span id="upperCase" class="invalid">
+          <i class="bi bi-shield-x"></i> Contain Upper Letter
+        </span>
+        <span id="lowerCase" class="invalid">
+          <i class="bi bi-shield-x"></i> Contain Lower Letter
+        </span>
+        <span id="number" class="invalid">
+          <i class="bi bi-shield-x"></i> Contain Number
+        </span>
+        <span id="specialChar" class="invalid">
+          <i class="bi bi-shield-x"></i> Contain Symbol
+        </span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
