@@ -59,7 +59,6 @@ To run the project locally:
 3. Open the index.html File in Your Browser.
 
 ## 📦 Project Structure
-    ```
     JavaScript_Challenge30/
     │
     ├── Day 19 - [OTP-Generated]/
@@ -74,7 +73,6 @@ To run the project locally:
     │
     ├── README.md
     └── ...
-    ```
 
 ## 💻 What I Learned
 This project taught me a lot about creating user-friendly, interactive web applications using front-end technologies. Key learnings include:
