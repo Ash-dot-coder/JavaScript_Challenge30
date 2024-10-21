@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    /* font-family: "Caveat", cursive; */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #1d1d1d;
+    margin: 0;
+}
+
+:root {
+    --bg: #D2C893;
+    --bg-hover: #b7ac74;
+    --color: #58541F;
+    --color-hover: #716c31;
+    --frosted-black: #1D1D1D;
+}
+
+.container {
+    background: var(--bg);
+    color: var(--color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 1.4em var(--color);
+    transition: 0.6s ease-out;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    /* color: #333; */
+
+    .fa-gear {
+        animation: dropMove 0.78s ease-in-out infinite alternate;
+    }
+}
+
+@keyframes dropMove {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.otp-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#otp-display {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid var(--color);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--color);
+    background-color: #827f7f42;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+    font-size: 1em;
+    letter-spacing: 0.18em;
+    /* text-transform: uppercase; */
+}
+
+#generate-btn,
+#copy-btn {
+    background-color: var(--color);
+    color: var(--bg);
+    transition: 0.97s ease-in-out;
+    text-shadow: 0 0 2.6px var(--bg-hover);
+}
+
+#generate-btn:hover {
+    /* background-color: var(--color-hover); */
+    box-shadow: inset 38em 0 0 0 var(--color-hover);
+    transition: 0.97s ease-in-out;
+    /* color: var(--bg-hover); */
+}
+
+#copy-btn:hover {
+    box-shadow: inset -38em 0 0 0 var(--color-hover);
+    transition: 0.97s ease-in-out;
+}
+
+.success-message {
+    display: none;
+    color: var(--color);
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 0.12em;
+}
