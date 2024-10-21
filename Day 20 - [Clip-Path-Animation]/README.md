@@ -68,6 +68,7 @@ This project is part of my **30 Days of JavaScript Challenge** and focuses on cr
 ![Moving](images/interface-1.png)
 ![Hovering](images/interface-2.png)
 ![Click](images/interface-3.png)
+![Proper-full-image](images/cowboyBepop1.jpg)
 
 ---
 
