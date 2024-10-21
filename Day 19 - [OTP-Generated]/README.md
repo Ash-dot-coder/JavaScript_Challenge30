@@ -59,7 +59,7 @@ To run the project locally:
 3. Open the index.html File in Your Browser.
 
 ## 📦 Project Structure
-    ```plaintext
+    ```bash
     JavaScript_Challenge30/
     │
     ├── Day 19 - [OTP-Generated]/
