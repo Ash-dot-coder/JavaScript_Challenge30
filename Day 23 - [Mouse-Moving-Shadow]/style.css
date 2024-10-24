@@ -1,0 +1,30 @@
+html {
+    color: #f1f1f1;
+    background: #1d1d1d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    cursor:move;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+h1 {
+    text-shadow: 5px 5px 0 rgba(179, 179, 179, 0.836);
+    font-size: 120px;
+    transform: rotate(-5deg);
+    cursor: pointer;
+    transition: text-shadow .23s ease;
+}
