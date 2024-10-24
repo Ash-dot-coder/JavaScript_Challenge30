@@ -8,7 +8,7 @@
 
 ## 📝 Project Overview
 
-**Project Title**: Mouse Moving Shadow 🎨  
+**Project Title**: ***Mouse Moving Shadow*** 🎨  
 This project is a part of my 30 Days JavaScript Challenge. The goal was to create a cool, interactive visual effect using JavaScript, HTML, and CSS, where the shadow of the text moves in response to mouse movements, creating a dynamic user experience.
 
 ## ✨ Key Features
@@ -18,7 +18,7 @@ This project is a part of my 30 Days JavaScript Challenge. The goal was to creat
 - **📝 Editable Text**: The content of the `<h1>` tags is editable, allowing users to modify the displayed text.
 - **📊 Minimal Animation**: Subtle yet effective movement of the text-shadow for an engaging experience.
 
-## 📸 Screenshot
+## 📸 Visual Preview
 
 ![Normal-Shadow](images/interface-1.png)
 ![Moving-Shadow-1](images/interface-2.png)
