@@ -91,4 +91,6 @@ To get a local copy up and running, follow these steps:
 - GitHub: [ash-dot-coder](https://github.com/ash-dot-coder)
 - LinkedIn: [Ayush Kohre](https://www.linkedin.com/in/aayush-kohre-dev1/)
 
+---
+
 Feel free to check out the other projects in my **JavaScript_Challenge30** repository for more interesting challenges and JavaScript-based projects.
