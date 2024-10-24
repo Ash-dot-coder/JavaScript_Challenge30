@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 239;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1D1D1D;
+}
+
+
+.fa-sort-down {
+    color: #cccccc;
+    font-size: 2em;
+    margin-bottom: 1.18rem;
+    transform: translateY(-3.89rem);
+    animation: frogX .79s linear infinite alternate;
+}
+
+@keyframes frogX {
+    form {
+        transform: translateY(-3.89rem);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+.mainForm {
+    position: relative;
+    width: 380px;
+    padding: 25px;
+    background-color: #253649a4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .mainForm input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    padding: 1.3rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.13em;
+}
+
+.mainForm input::placeholder {
+    color: #ccc;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* JavaScript */
+form.invalid::before {
+    content: "";
+    position: absolute;
+    right: 14px;
+    background: url("images/wrong.png") no-repeat center;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+form.valid::before {
+    content: "";
+    position: absolute;
+    right: 14px;
+    background: url("images/check.png") no-repeat center;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
