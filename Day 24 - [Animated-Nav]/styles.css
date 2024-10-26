@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1d1d1d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: #D2C893;
+    animation: colorChange 0.78s ease  infinite alternate;
+}
+
+@keyframes colorChange {
+    from{
+        color: #D2C893;
+    }
+    to{
+        color: #df9e5dc4;
+    }
+}
+
+
+nav {
+    background: #D2C893;
+    padding: 20px;
+    width: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: width 0.6s linear;
+    border-radius: 0.63rem;
+}
+
+nav.active {
+    width: 350px;
+    background: #D2C893;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    transition: width 0.6s linear;
+}
+
+nav.active ul {
+    width: 100%;
+}
+
+nav ul li {
+    transform: rotate(0deg);
+    opacity: 0;
+    transition: transfrom 0.6s linear, opacity 0.6s linear;
+}
+
+nav.active ul li {
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+
+nav ul a {
+    position: relative;
+    color: #58541F;
+    /* color: #000; */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.icon {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.icon .line {
+    background: #cd6a08bb;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: transfrom 0.6s linear;
+    transition: 0.78s ease-in-out;
+}
+
+
+.icon .line2 {
+    top: auto;
+    bottom: 10px;
+    background: rgba(159, 118, 16, 0.888);
+    transition: 0.78s ease-in-out;
+}
+
+nav.active .icon .line1 {
+    transform: rotate(-765deg) translateY(5.5px);
+    transition: 0.78s ease-in-out;
+}
+
+nav.active .icon .line2 {
+    transform: rotate(765deg) translateY(-5.5px);
+    transition: 0.78s ease-in;
+}
