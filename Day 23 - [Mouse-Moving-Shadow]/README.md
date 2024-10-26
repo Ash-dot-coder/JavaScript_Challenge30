@@ -1,4 +1,4 @@
-# 📅 Day 23 - Mouse Moving Shadow! 🌟
+# 💻 Day 23 - Mouse Moving Shadow! 🌟
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-green?style=for-the-badge)](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2023%20-%20%5BMouse-Moving-Shadow%5D/index.html)
 
