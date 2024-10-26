@@ -1,4 +1,4 @@
-# 📅 Day 24 - Animated Navigation! 🎉
+# 💻 Day 24 - Animated Navigation! 🎉
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-green?style=for-the-badge)](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2024%20-%20%5BAnimated-Nav%5D/index.html)
 
