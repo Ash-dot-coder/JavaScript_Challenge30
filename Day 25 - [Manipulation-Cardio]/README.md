@@ -44,14 +44,15 @@ This **JavaScript Manipulation Cardio** project is a focused, hands-on exercise 
 
 ## 📂 GitHub Repository
 
-Access the complete codebase and track updates here: [GitHub Repository](https://github.com/ash-dot-coder/js-manipulation-cardio).
-
+Access the complete codebase and track updates here:
+GitHub Repository: [Js30](https://github.com/Ash-dot-coder/JavaScript_Challenge30)
+Project Repository: [Day 25: Manipulation-Cardio](https://github.com/Ash-dot-coder/JavaScript_Challenge30/tree/Js30/Day%2025%20-%20%5BManipulation-Cardio%5D)
 ---
 
 ## 🌐 Connect with Me
 
 - **GitHub**: [ash-dot-coder](https://github.com/ash-dot-coder)
-- **LinkedIn**: [Ayush Kohre](https://www.linkedin.com/in/ayush-kohre)
+- **LinkedIn**: [Ayush Kohre](https://www.linkedin.com/in/aayush-kohre-dev1/)
 
 ---
 
