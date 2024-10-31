@@ -18,8 +18,8 @@ As part of my 30 Days JavaScript Challenge, this project showcases a dynamic dra
 - **🎨 Simple and Clean Design**: A minimalistic interface with hover effects, making it easy to view and manage team members.
 
 ## 📸 Visual Preview
-![Interface-1](images/interface-1.png)
-![Interface-2](images/interface-2.png)
+![Interface-1](Images/interface-1.png)
+![Interface-2](Images/interface-2.png)
 
 ## 📚 Technologies Used
 
