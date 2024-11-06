@@ -94,3 +94,89 @@ h1 {
         box-shadow: 0 0em 0.73em #232020;
     }
 }
+
+/* Responsive */
+/* Small screens */
+@media (max-width: 480px) {
+    #page {
+        width: 90vw;
+        height: auto;
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    #showTheJoke {
+        width: 90%;
+        font-size: 1.8em;
+    }
+
+    .btn {
+        font-size: 1em;
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 481px) and (max-width: 768px) {
+    #page {
+        width: 80vw;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 5.5vw;
+    }
+
+    #showTheJoke {
+        width: 80%;
+        font-size: 2em;
+    }
+
+    .btn {
+        font-size: 1.1em;
+        padding: 0.6rem 1rem;
+    }
+}
+
+/* Large screens*/
+@media (min-width: 769px) and (max-width: 1200px) {
+    #page {
+        width: 72vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    #showTheJoke {
+        width: 75%;
+        font-size: 2.1em;
+    }
+
+    .btn {
+        font-size: 1.12em;
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1201px) {
+    #page {
+        width: 68vw;
+    }
+
+    h1 {
+        font-size: 4.8vw;
+    }
+
+    #showTheJoke {
+        width: 64%;
+        font-size: 2.21em;
+    }
+
+    .btn {
+        font-size: 1.14em;
+    }
+}
