@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Skill Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Typing Skill Test</h1>
+      <div class="main"></div>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+
+      <textarea
+        name="words"
+        class="typingArea"
+        placeholder="Start typing here..."
+        disabled
+      >
+      </textarea>
+
+      <button class="btn">Start</button>
+      <div class="feedback"></div>
+
+      <div class="result-container">
+        <h3>Results:</h3>
+        <div class="result-original">
+          Original Text: <span id="originalText"></span>
+        </div>
+        <div class="result-user">User Typed: <span id="userText"></span></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
