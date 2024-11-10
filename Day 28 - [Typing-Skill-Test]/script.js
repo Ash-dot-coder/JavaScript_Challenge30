@@ -1,3 +1,5 @@
+alert("JavaScript Challenge: Day-28");
+
 const main = document.querySelector(".main");
 const typeA = document.querySelector(".typingArea");
 const btn = document.querySelector(".btn");
@@ -33,11 +35,8 @@ const words = [
   "Chainsaw Man",
 ];
 
-let targetTextArray = [];
-
 const game = {
   start: 0,
-  end: 0,
   targetText: "",
   userText: "",
 };
@@ -45,11 +44,6 @@ const game = {
 btn.addEventListener("click", () => {
   if (btn.textContent === "Start") {
     startGame();
-    typeA.value = "";
-    typeA.disabled = false;
-    feedback.textContent = "";
-    originalTextDisplay.innerHTML = "";
-    userTextDisplay.innerHTML = "";
   } else if (btn.textContent === "Done") {
     finishGame();
   }
@@ -64,11 +58,16 @@ function startGame() {
   main.textContent = "";
   animateText(randText);
   game.targetText = randText;
-  targetTextArray = randText.split("");
+  game.userText = "";
+  typeA.value = "";
+  typeA.disabled = false;
+  feedback.textContent = "";
+  originalTextDisplay.innerHTML = "";
+  userTextDisplay.innerHTML = "";
   btn.textContent = "Done";
-  game.start = new Date().getTime();
   progressBar.style.width = "0";
-  feedback.style.color = "#ff6b6b";
+
+  game.start = performance.now();
 }
 
 function animateText(text) {
@@ -93,7 +92,7 @@ function checkTyping() {
   let highlightedText = "";
 
   for (let i = 0; i < userInputLength; i++) {
-    if (game.userText[i] === targetTextArray[i]) {
+    if (game.userText[i] === game.targetText[i]) {
       correctCount++;
       highlightedText += `<span class="correct">${game.userText[i]}</span>`;
     } else {
@@ -102,7 +101,7 @@ function checkTyping() {
   }
 
   for (let i = userInputLength; i < targetTextLength; i++) {
-    highlightedText += `<span class="remaining">${targetTextArray[i]}</span>`;
+    highlightedText += `<span class="remaining">${game.targetText[i]}</span>`;
   }
 
   main.innerHTML = highlightedText;
@@ -129,7 +128,7 @@ function checkTyping() {
 }
 
 function finishGame() {
-  const totalTime = ((new Date().getTime() - game.start) / 1000).toFixed(2);
+  const totalTime = ((performance.now() - game.start) / 1000).toFixed(2);
   let correctLetters = 0;
   let originalHighlight = "";
   let userHighlight = "";
@@ -149,9 +148,10 @@ function finishGame() {
 
   originalTextDisplay.innerHTML = originalHighlight;
   userTextDisplay.innerHTML = userHighlight;
-
   const accuracy = ((correctLetters / game.targetText.length) * 100).toFixed(2);
+
   main.innerHTML = `Time: ${totalTime}s | Accuracy: ${accuracy}%`;
+
   btn.textContent = "Start";
   typeA.disabled = true;
   feedback.textContent = "";

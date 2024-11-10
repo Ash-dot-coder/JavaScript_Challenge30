@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Gowun+Batang:wght@400;700&family=Sofadi+One&family=Space+Grotesk:wght@300..700&display=swap');
+
 body {
     display: flex;
     justify-content: center;
@@ -25,6 +27,7 @@ body {
     margin-bottom: 20px;
     color: #61dafb;
     animation: fadeIn 1s ease-in-out;
+    font-family: "Gowun Batang", serif;
 }
 
 .main {
@@ -36,6 +39,8 @@ body {
     animation: typewriter 2s steps(30) 1;
     overflow: hidden;
     white-space: nowrap;
+    font-family: "Sofadi One", serif;
+
 }
 
 .typingArea {
@@ -52,6 +57,7 @@ body {
     color: #61dafb;
     resize: none;
     transition: all 0.2s;
+    font-family: "Space Grotesk", serif;
 }
 
 .typingArea.error {
@@ -60,20 +66,22 @@ body {
 }
 
 .btn {
-    width: 50%;
-    font-size: 1.2em;
+    width: 30%;
+    font-size: 1.42em;
     padding: 10px;
     margin-top: 20px;
-    color: white;
+    color: #1d1d1d;
     background-color: #61dafb;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: "Gowun Batang", serif;
 }
 
 .btn:hover {
     background-color: #21a1f1;
+    color: #ccc;
 }
 
 .progress-bar {
@@ -116,17 +124,50 @@ body {
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    75% { transform: translateX(5px); }
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
 }
 
 @keyframes typewriter {
-    from { width: 0; }
-    to { width: 100%; }
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+.result-container {
+    letter-spacing: 0.128em;
+
+    &>h3{
+        font-family: "Bebas Neue", sans-serif;
+    }
+}
+
+.user-input {
+    font-family: "Gowun Batang", serif;
 }
