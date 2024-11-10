@@ -1,6 +1,6 @@
 # ⌨️ Day 28 - Typing Skill Test 🎯
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-green?style=for-the-badge)](https://demo.100jsprojects.com/typing-skill-test)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-green?style=for-the-badge)](https://ash-dot-coder.github.io/JavaScript_Challenge30/Day%2028%20-%20%5BTyping-Skill-Test%5D/index.html)
 
 ## 📂 Repository Links
 - **JS30 Repository**: [📘 JavaScript Challenge 30](https://github.com/ash-dot-coder/JavaScript_Challenge30)
