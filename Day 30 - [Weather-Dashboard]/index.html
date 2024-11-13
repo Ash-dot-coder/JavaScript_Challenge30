@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day - 30 | Weather Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="cube">
+        <div class="face weather">
+          <h2>Current Weather</h2>
+          <div class="icon" id="weather-icon">☀️</div>
+          <div class="temp" id="temp">24°C</div>
+          <div class="condition" id="condition">Sunny ☀️</div>
+        </div>
+        <div class="face forecast">
+          <h2>5-Day Forecast</h2>
+          <div class="forecast-content" id="forecast-content"></div>
+        </div>
+        <div class="face air-quality">
+          <h2>Air Quality Index</h2>
+          <div class="aqi" id="aqi">55 (Good)</div>
+          <div class="gauge" id="gauge"></div>
+        </div>
+        <div class="face news">
+          <h2>Live News</h2>
+          <div class="headline" id="headline">
+            Breaking News: Sunny Skies Expected All Week!
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button onclick="rotateCube(-1)">
+          <i class="fa-solid fa-square-caret-left"></i>
+        </button>
+        <button onclick="toggleDarkMode()" class="modeOo">🌙 / 🌞</button>
+        <button onclick="rotateCube(1)">
+          <i class="fa-solid fa-square-caret-right"></i>
+        </button>
+      </div>
+    </div>
+    <h1>Weather <i class="fa-solid fa-cloud-sun"></i> Dashboard</h1>
+    <script src="script.js"></script>
+  </body>
+</html>

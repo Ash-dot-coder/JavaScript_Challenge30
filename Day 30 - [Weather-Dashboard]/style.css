@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 100vh;
+    background: #b9d1e3;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
+    letter-spacing: .24em;
+    font-family: "Exo 2", serif;
+}
+
+body.dark-mode {
+    background: #1d1d1d;
+    color: #ccc;
+}
+
+.dashboard {
+    width: 300px;
+    perspective: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.26rem;
+}
+
+.cube {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+}
+
+.face {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: .87em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: .63em;
+    backface-visibility: hidden;
+}
+
+.weather {
+    transform: rotateY(0deg) translateZ(150px);
+}
+
+.forecast {
+    transform: rotateY(90deg) translateZ(150px);
+}
+
+.air-quality {
+    transform: rotateY(180deg) translateZ(150px);
+}
+
+.news {
+    transform: rotateY(-90deg) translateZ(150px);
+}
+
+.controls {
+    display: flex;
+    gap: .6em;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.temp {
+    font-size: 2.5rem;
+}
+
+#weather-icon {
+    font-size: 4rem;
+    animation: weatherEffect 3s linear infinite;
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    bottom: .97em;
+    right: 2.26em;
+    text-transform: uppercase;
+    font-size: 1.26em;
+    letter-spacing: 1em;
+    word-spacing: .08em;
+    font-family: "Bona Nova SC", serif;
+    text-shadow: 0 0 1em #000;
+}
+
+.fa-cloud-sun {
+    font-size: 1.42em;
+}
+
+@keyframes weatherEffect {
+
+    0%,
+    100% {
+        color: #f9d71c;
+    }
+
+    50% {
+        color: #ffeb3b;
+    }
+}
+
+.forecast-content div {
+    margin: 5px 0;
+}
+
+body.dark-mode .controls button {
+    background-color: #fff;
+    color: #333;
+}
+
+body.dark-mode .face {
+    background: rgba(48, 48, 48, 0.8);
+}
+
+body.dark-mode #weather-icon {
+    color: #ffeb3b;
+}
+
+body.dark-mode .headline {
+    color: #ddd;
+}
+
+@media (max-width: 779px) {
+    h1 {
+        letter-spacing: .67em;
+        right: 2em;
+    }
+}
+
+@media (max-width: 674px) {
+    h1 {
+        letter-spacing: .47em;
+        right: 1.78em;
+    }
+}
+
+@media (max-width: 607px) {
+    h1 {
+        letter-spacing: .37em;
+        right: 1.23em;
+    }
+}
+
+@media (max-width: 483px) {
+    h1 {
+        letter-spacing: .2em;
+        right: 1em;
+    }
+}
+
+@media (max-width: 404px) {
+    h1 {
+        letter-spacing: .18em;
+    }
+}
